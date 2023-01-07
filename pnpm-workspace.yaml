@@ -1,0 +1,6 @@
+packages:
+  # sub-packages
+  - 'packages/**'
+  
+  ## project
+  - 'app/**'
