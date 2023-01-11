@@ -1,8 +1,9 @@
 <!-- logo -->
 <br />
+
 <div align="center" id="top">
-  <a href="https://github.com/moyu-developer/moyu-caster-fiber">
-    <img src="https://s2.loli.net/2022/12/04/CS2GplwyUNmqZ7J.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/wangly19/nextui-design-pro">
+    <img src="https://user-images.githubusercontent.com/45115006/211765718-ccc02f31-03ba-49c7-a06e-acade86fca30.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h2 align="center">NextUI Design Pro</h2>
@@ -20,35 +21,31 @@
 
 ## feature
 
-- **Hooks API**：Everything is based on hooks.
-- **Formik**: Use Formik for form work
-- **zustand**: Use zustand to manage state
-- **theme**: DarkTheme & LightTheme support.
+- Everything is based on hooks.
+- Use Formik for form work
+- zustand to manage state
+- DarkTheme & LightTheme support.
+- Personalized content widget.
 
 
-<p align="right">(<a href="#top">回到顶部</a>)</p>
+<p align="right">(<a href="#top">BackTop</a>)</p>
 
-## use template
+## Install
 
-
-Git clone repo
 
 ```ts
+// git repo
 git clone https://github.com/wangly19/nextui-design-pro.git
-```
 
-Pnpm install
+// go to projectDir
+cd nextui-design-pro/app/next
 
-```ts
-pnpm install
-```
-
-Cd Project & Run
-
-```ts
-// dir
-cd ./app/next
+// install package.json
+pnpm install or pnpm i
 
 // run
 pnpm run dev
+
+// build
+pnpm run build
 ```
