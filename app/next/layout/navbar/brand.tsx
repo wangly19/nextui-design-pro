@@ -3,12 +3,9 @@ import { Row, Text, RowProps } from "@nextui-org/react";
 
 export const Brand: React.FC<RowProps> = (props) => {
   return (
-    <Row
-      align="center"
-      {...props}
-    >
+    <Row align="center" {...props}>
       <Logo />
-      <Text b size="$xl">
+      <Text b size="$lg">
         NextUI Pro
       </Text>
     </Row>
