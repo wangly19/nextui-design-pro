@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Box } from "@/components/box";
-import { Flex } from "@/components/flex";
+import { Flex, FlexBox } from "@/components/flex";
 import { Text, Avatar } from "@nextui-org/react";
 
 const pictureUsers = [
@@ -13,21 +13,24 @@ const pictureUsers = [
 
 export const HomeDescription = () => {
   return (
-    <Box css={{
-      width: '100%'
-    }} >
+    <Box
+      css={{
+        width: "100%",
+      }}
+    >
       <Text h1> Sign In to </Text>
       <Text h2> NextUI Design Pro </Text>
-      <Text h3 css={{
-          textGradient: "45deg, $blue600 -20%, $pink600 50%",
-        }} >
-        Create an account and discover the worlds' best UI component framework.
+      <Text
+        h3
+        css={{
+          textGradient:
+            "112deg, #06B7DB -63.59%, #FF4ECD -20.3%, #0072F5 70.46%",
+        }}
+      >
+        Use templates to quickly create your projects.
       </Text>
-      <Flex css={{
-        gap: '$8',
-        mt: '$12'
-      }} >
-        <Avatar.Group >
+      <FlexBox gap="$8" mt="$12" flexWrap="wrap" >
+        <Avatar.Group>
           {pictureUsers.map((url, index) => (
             <Avatar
               key={index}
@@ -41,7 +44,7 @@ export const HomeDescription = () => {
           ))}
         </Avatar.Group>
         <Text b>Join Web Developer.</Text>
-      </Flex>
+      </FlexBox>
     </Box>
   );
 };
