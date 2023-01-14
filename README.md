@@ -7,7 +7,8 @@
   </a>
 
   <h2 align="center">NextUI Design Pro</h2>
-  The best practices for React NextUI + Formik + zustand 🚀
+  The best practices for React NextUI + Formik + zustand 🚀<br>
+  Build comfortable web applications
   <p align="center">
     <br />
     <a href=""><strong>Demo »</strong></a>
@@ -19,13 +20,9 @@
   <img style="border-radius: 12px;" width="1678" alt="iShot2023-01-11_16 39 18" src="https://user-images.githubusercontent.com/45115006/211758182-c262656c-c386-466c-916d-d2f811600e3c.png">
 </div>
 
-## feature
+## Features
 
-- Everything is based on hooks.
-- Use Formik for form work
-- zustand to manage state
-- DarkTheme & LightTheme support.
-- Personalized content widget.
+...edit
 
 
 <p align="right">(<a href="#top">BackTop</a>)</p>
@@ -49,3 +46,5 @@ pnpm run dev
 // build
 pnpm run build
 ```
+
+next version edit...
