@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Spacer, styled, Text } from "@nextui-org/react";
 import { Box } from "components/box";
 import { ShieldDone } from "react-iconly";
