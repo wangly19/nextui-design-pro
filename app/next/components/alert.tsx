@@ -61,7 +61,7 @@ export const Alert: React.FC<AlertProps> = ({
             as={ShieldDone}
             set="bold"
             css={{
-              color: "$background",
+              color: "$white",
             }}
           />
         }
