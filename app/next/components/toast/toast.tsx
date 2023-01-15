@@ -1,21 +1,17 @@
-import * as React from 'react';
-import { Card, styled, Text } from "@nextui-org/react";
+import * as React from "react";
+import { Card, styled, Text, useTheme, BadgeProps } from "@nextui-org/react";
 import { Flex } from "components/flex";
-import { InfoSquare } from "react-iconly";
+import { Send } from "react-iconly";
 import { useSpring, animated } from "@react-spring/web";
 
 export interface ToastProps {
   title: string;
   description?: string;
-  type?: "success" | "error";
+  type?: 'primary' | 'error' | 'warning';
   /** @default 2000 */
   duration?: number;
   icon?: React.ReactNode;
 }
-
-const InfoSquareIcon = styled(InfoSquare, {
-  color: "$accents0",
-});
 
 export const ToastWrapper = styled("div", {
   dflex: "center",
@@ -26,9 +22,13 @@ export const ToastWrapper = styled("div", {
   zIndex: "$max",
 });
 
-export const Toast: React.FC<ToastProps & {
-  onClear?: (uid: React.Key) => void;
-}> = (props) => {
+export const Toast: React.FC<
+  ToastProps & {
+    onClear?: (uid: React.Key) => void;
+  }
+> = (props) => {
+  const { theme } = useTheme();
+
   const springs = useSpring({
     from: {
       opacity: 0,
@@ -57,11 +57,9 @@ export const Toast: React.FC<ToastProps & {
             {props.icon ? (
               props.icon
             ) : (
-              <InfoSquareIcon
-                css={{
-                  color: props.type === "error" ? "$error" : "$primary",
-                }}
-                set="curved"
+              <Send
+                set="bold"
+                primaryColor={theme?.colors?.[props.type || "primary"].value}
               />
             )}
             <Text b>{props.title}</Text>
