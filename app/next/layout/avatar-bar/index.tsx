@@ -10,7 +10,7 @@ import { UserPopover } from "./user";
 
 export const AvatarBar = () => {
   const spotlightRef = useRef<SpotlightInstance>(null);
-  const { add } = useToast();
+  const { toast } = useToast();
 
   return (
     <Navbar.Content
@@ -62,8 +62,8 @@ export const AvatarBar = () => {
 
       <Navbar.Item
         onClick={() =>
-          add({
-            type: "success",
+          toast({
+            type: "primary",
             title: "title",
             description: "description",
           })
