@@ -1,4 +1,4 @@
-import { Navbar, Dropdown, Avatar, Input } from "@nextui-org/react";
+import { Navbar, Text, Avatar, Input } from "@nextui-org/react";
 import { Icon } from "./icon";
 import { Setting, ShieldDone, Chart, Search } from "react-iconly";
 import { NotificationDown } from "./notification";
@@ -32,6 +32,7 @@ export const AvatarBar = () => {
         }}
       >
         <Input
+        //  contentRight={<Text b size="$sm" color="primary" >⌘/</Text>}
           contentLeft={
             <Icon
               as={Search}
