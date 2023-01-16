@@ -14,10 +14,10 @@
     <a href=""><strong>Demo »</strong></a>
     
   </p>
-  <img style="border-radius: 12px;" width="1679" alt="iShot2023-01-11_16 31 16" src="https://user-images.githubusercontent.com/45115006/211756582-b6cc1741-8aa7-4a4e-a9ff-a593f53abe61.png">
-
+  <img width="1679" alt="image" src="https://user-images.githubusercontent.com/45115006/212683273-2164826f-d267-41fb-910d-c3b89a4c63df.png">
   <br/>
-  <img style="border-radius: 12px;" width="1678" alt="iShot2023-01-11_16 39 18" src="https://user-images.githubusercontent.com/45115006/211758182-c262656c-c386-466c-916d-d2f811600e3c.png">
+  <br/>
+  <img width="1679" alt="image" src="https://user-images.githubusercontent.com/45115006/212683700-dad6cb1b-27b4-4d08-bb0e-650512f3b397.png">
 </div>
 
 ## Features
