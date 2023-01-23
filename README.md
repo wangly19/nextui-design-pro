@@ -22,6 +22,9 @@
 
 ## Features
 
+- **Charts:** react-chartjs-2 & chartjs 
+
+
 ...edit
 
 
