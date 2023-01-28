@@ -1,4 +1,4 @@
-import { Grid, Text } from "@nextui-org/react";
+import { Grid } from "@nextui-org/react";
 import { DataCard } from "@/views/dashboard/data-card";
 import { Profile } from "@/views/dashboard/profile";
 import { Swipe } from "@/views/dashboard/swiper";
@@ -52,7 +52,7 @@ export const DashboardPage =  () => {
       <Grid xs={12} lg={9}>
         <Swipe />
       </Grid>
-      <Grid xs={12} lg={3}>
+      <Grid xs={12} lg={3} >
         <Grid.Container alignItems="flex-start" >
           <Grid xs={6} lg={12} ><Profile /></Grid>
           <Grid xs={6} lg={12} ><QuickEntry /></Grid>

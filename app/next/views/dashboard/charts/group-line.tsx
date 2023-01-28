@@ -32,6 +32,8 @@ const defineConfig = {
 
 const labels = ["January", "February", "March", "April", "May", "June", "July"];
 
+const showCase = ['']
+
 export const data: ChartData<'bar', number[], string> = {
   labels,
   datasets: [

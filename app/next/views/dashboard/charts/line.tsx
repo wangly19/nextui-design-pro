@@ -115,6 +115,9 @@ export const LineCharts = () => {
                 y: {
                   min: 100,
                   max: 500,
+                  ticks: {
+                    callback: v => v + ' W'
+                  },
                   title: {
                     display: true,
                     text: "Unit(W)",
