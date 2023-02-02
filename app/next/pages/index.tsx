@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import { HomePageView } from '@/views/home'
 
 export default function Home() {
   return (
-    <main>111</main>
+    <HomePageView/>
   )
 }
